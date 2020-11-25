@@ -1,0 +1,388 @@
+/*----------------------------------------------------------------------------
+responsive css here
+----------------------------------------------------------------------------*/
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+	
+		.profile-count li,.profile-countt li {
+		 width: 197px;
+	}
+	.score_val {
+		 font-size: 14px;
+	}
+		.profile_pic {
+			margin-top: 20%;
+		}
+		.profile_pic_lft {
+			margin-top: 29%;
+		}
+		.img_tabs li {
+			padding: 0 44px;
+		}
+		.tb_pad {
+			padding:0px;
+		}
+		.img_tabs2 li {
+			font-size: 14px;
+			padding: 0 14px;
+		}
+		.modal-lg {
+			width: 948px;
+		}
+		.secnd_mainpopup ul li {
+			margin-right: 13px;
+			margin-left: 13px;
+		}
+		.users_notify {
+			right: 20%;
+			width: 25%;
+	}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+	.profile-count li,.profile-countt li {
+		 width: 190px;
+	}
+	.profile_pic {
+    margin-top: 21%;
+	}
+	.profile_pic_lft {
+    margin-top: 30%;
+	}
+	
+	.img_tabs li {
+		padding: 0 39px;
+	}
+	.users_notify {
+		 right: 10%;
+    width: 38%;
+	}
+	.img_tabs2 li {
+    font-size: 12px;
+    padding: 0 7px;
+	}
+	.secnd_mainpopup ul li {
+		 margin-left: 11px;
+    margin-right: 11px;
+	}
+	.modal-lg {
+    width: 713px;
+	}
+	.input-name {
+    padding-left: 0;
+	}
+	
+	.main_page {
+		padding-top: 93px;
+	}
+	
+	.tab_lis {
+		margin-top:0px;
+	}
+	
+	.right_side {
+    margin-top: 6px;
+	}
+	
+	.middle_div {
+		margin-top:6px;
+	}
+	
+	.tb_pad {
+		padding:0px;
+	}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+	.profile-count li,.profile-countt li {
+		 width: 190px;
+	}
+	.model_widt {
+    width: 400px;
+}
+	.add_post_model {
+    height: 630px;
+    width: 600px;
+	}
+	.divider {
+		border-top: 1px solid #cccccc;
+		margin: 18px;
+		height:1px;
+	}.profile_pic {
+    margin-top: 21%;
+	}
+	.profile_pic_lft {
+    margin-top: 30%;
+	}
+	
+	.img_tabs li {
+		padding: 0 39px;
+	}
+	.users_notify {
+		 right: 10%;
+    width: 38%;
+	}
+	.img_tabs2 li {
+    font-size: 12px;
+    padding: 0 7px;
+	}
+	.secnd_mainpopup ul li {
+		 margin-left: 11px;
+    margin-right: 11px;
+	}
+	.modal-lg {
+    width: 713px;
+	}
+	.input-name {
+    padding-left: 0;
+	}
+	
+	.main_page {
+		padding-top: 93px;
+	}
+	
+	.tab_lis {
+		margin-top:0px;
+	}
+	
+	.right_side {
+    margin-top: 6px;
+	}
+	
+	.middle_div {
+		margin-top:6px;
+	}
+	
+	.tb_pad {
+		padding:0px;
+	}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+	.profile-count li {
+    color: #ff3400 !important;
+    float: left;
+    font-size: 12px;
+    font-weight: 600;
+    list-style: outside none none;
+    padding: 6px 0;
+    text-transform: uppercase;
+    width: 86px;
+	}
+	.profile-countt li {
+    color: #6a6a6a !important;
+    float: left;
+    font-size: 12px;
+    font-weight: 600;
+    list-style: outside none none;
+    padding: 0;
+    width: 86px;
+	}
+	.score_val,.score_p {
+		font-size: 12px;
+	}
+	h2.profile {
+		 font-size: 13px;
+	}
+	.profile_acc li {
+		 margin-right: 2px;
+	}
+	.profile_option {
+		padding: 5px 0 5px 3%;
+	}
+	.profile_option li {
+    margin-right: 13%;
+	}
+	.profile_pics {
+    float: left;
+    margin-bottom: 4px;
+    width: 100%;
+}
+.profile_pics_last {
+	float: left; margin-bottom: 4px;
+    width: 100%;
+}
+	.add_post_model {
+    height: 630px;
+    width: auto;
+	}
+	.myLabel {
+		padding:5px 11px;
+	}
+	.togmdl {
+		width: auto;
+	}
+	.model_widt {
+    width: auto;
+}
+	.profil_name a {
+		width: 31px !important;
+	}
+	.menu_list li span.name {
+		width: 29px;
+	}
+	.tabs_users {
+		padding-left: 0;
+	}
+	.tabs_users li.active a {
+    background: #cccccc none repeat scroll 0 0;
+    color: #ff0000 !important;
+}
+	.tabs_users li a {
+		border-color: #ffffff !important;
+		color: #6b6b6b !important;
+		font-size: 14px;
+		font-weight: bold;
+		padding: 5px 4px;
+		text-transform: uppercase;
+		 background: #c9c9c9 none repeat scroll 0 0;
+	}
+	.profile_pic {
+		margin-top: 45%;
+	}
+	.profile_pic_lft {
+		margin-top: 1%;
+	}
+	.secnd_mainpopup ul li {
+		 margin-left: 12px;
+    margin-right: 12px;
+	}
+	.modal-lg {
+    width: auto;
+	}
+	.mbl_mrg_tp {
+		margin-top:5px;
+	}
+	.menu_view {
+    background-color: #ffffff;
+    border: 2px solid #b3b3b3;
+    display: block;
+    margin-top: 0;
+    padding: 0 0 20px;
+    position: absolute;
+    right: 17%;
+    width: 68%;
+    z-index: 999;
+	}
+	.menu_bar {
+		 color: #555555;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 0;
+	}
+	.img_tabs_menu  {
+		margin-bottom:0px;
+		padding:0px;
+	}
+	.img_tabs_menu li {
+		border-bottom: 1px dashed #cccccc;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 30px;
+		list-style: outside none none;
+		margin-top: 2px;
+		padding: 0 25px;
+		text-align: left;
+		text-transform: uppercase;
+		width: 100%;
+	}
+	.img_tabs_menu li a {
+		color:#555555;
+	}
+	.img_tabs_menu li a:hover  {
+		color:red;
+	}
+	.img_tabs li {
+		padding:0px;
+	}
+	.input-name {
+    padding-left: 0;
+	}
+	
+	.main_page {
+		 padding-top: 64px;
+	}
+	
+	.mbl_padd {
+		padding:0px
+	}
+	
+	.menu_list li {
+		margin-right: 7px;
+	}
+	.menu_list li a {
+		font-size: 19px;
+		margin-left: 2px;
+	}
+	
+	.paly {
+		font-size: 38px !important;
+	}
+	
+	.articles {
+		 font-size: 13px;
+	}
+	
+	.menu_list li  span {
+		font-size: 19px;
+	}
+	.menu_list li  span i {
+	     font-size: 19px;
+	 }
+	 .users_notify {
+		right: 1%;
+		width: 99%;
+	}
+	
+	.mbl_search {
+		display: block;
+		margin-left: 13px;
+		margin-top: 65px;
+		padding: 1px 0 19px;
+		width: 91%;	
+	}
+	
+	.user_name {
+		padding:0px;
+		margin:0px;
+		font-size:19px;
+	}
+	.switch {
+    color: #828282;
+    float: left;
+    font-size: 14px;
+    margin-top: -4px;
+    padding-bottom: 0;
+    padding-left: 2px;
+	}
+	.mobile_flw {
+		background: #cccccc none repeat scroll 0 0;
+    cursor: pointer;
+    width: 100%;
+	}
+	.mbl_folow {
+    right: 1%;
+    width: 99%;
+    background-color: #ffffff;
+    border: 2px solid #b3b3b3;
+    display: block;
+    margin-top: 27px;
+    padding: 3px 12px 20px;
+    position: absolute;
+    z-index: 999;
+}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+     .menu_list li {
+		margin-right: 3px;
+	}   
+    }
